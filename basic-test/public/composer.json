@@ -1,0 +1,24 @@
+{
+    "name": "befeni/calculator-php",
+    "description": "Calculator for arithmetic expressions",
+    "minimum-stability": "stable",
+    "license": "",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Shashank",
+            "email": "shashankshekhar8433@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
