@@ -1,2 +1,10 @@
-env.php
-vendor/
+/vendor/
+/.vscode/
+composer.lock
+config.php
+.php_cs.cache
+build
+cache
+config.php
+sami.phar
+/.vs/

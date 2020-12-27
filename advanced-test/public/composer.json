@@ -2,7 +2,8 @@
     "name": "befeni/advance",
     "type": "project",
     "require": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "elasticsearch/elasticsearch": ">=2"
     },
     "require-dev": {
         "php": "^7.3",
@@ -14,5 +15,14 @@
             "email": "shashankshekhar8433@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Befeni\\" : "database", 
+            "SearchElastic\\" : "src/SearchElastic/",
+            "ElasticSearchClient\\" : "src/ElasticSearchClient/",
+            "SyncMySql\\" : "src/SyncMySql/",
+            "MySQLWithElasticsearchExceptions\\" : "src/MySQLWithElasticsearchExceptions/"
+        }
+    }
 }
